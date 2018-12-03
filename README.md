@@ -1,0 +1,2 @@
+# Assingments-MEAN
+HERE ARE ALL THE ASSIGNMENTS  !
