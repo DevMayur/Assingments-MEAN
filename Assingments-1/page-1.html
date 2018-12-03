@@ -1,0 +1,376 @@
+<!doctype html>
+<html>
+<head>
+<title>MEAN assingment-1</title>
+<style>
+
+.main{
+	widows:100%;
+	min-height:500px;
+	background-color:yellow;
+	padding:30px;
+	border:3px solid red;
+}
+#head1{
+font-size:55px;}
+#head2{
+font-size:30px;
+}
+.ans{
+	width:60%;
+	min-height:50px;
+	background-color:#EEEEEE;
+	padding:20px;
+	
+}
+code{
+color:red;
+font-size:20px;}
+
+#que{
+font-size:25px;
+text-align:center;
+}
+#sub-q{
+font-size:25px;
+}
+</style>
+</head>
+<body>
+<hr>
+<center><h1 id="head1">Assingment-1  " MEAN"  </h1><BR>
+<p>MAYUR</p>
+</center>
+<hr>
+<div class="main">
+<h2 id="head2">Assingment-1 running javascript </h2>
+<h3 id="que">1.Write a programme to print a "Hello World" .</h3>
+<div class="ans">
+<code>
+// for browser side <br>
+document.write('Hello World);<br>
+Output-<p>Hello World</p>
+
+//for console <br>
+console.log('Hellow World');
+<p>e.g-</p><br>
+<script>
+// for browser
+document.write("Hello World");
+
+//for console
+console.log("Hello world");
+</script>
+</code>
+</div>
+
+<h3 id="que">2. Variables, Data-types and operators</h3>
+<p id="sub-q">1. Declare a variable and test variable name rules and log the variable value.</p>
+<div class="ans">
+<code>
+//var name = a <br>
+var a = 'mayur';<br>
+console.log(a);<br>
+<span><p>Output- mayur //string</p></span>
+<script>
+//var name = a and valur = mayur as string
+var a = 'mayur'; // 
+console.log(a);
+document.write(a +  " <--is output");
+</script>
+</code>
+</div>
+<p id="sub-q">2. Comment Javascript code (single and multi-line comment)</p>
+<div class="ans">
+<code>
+<label>we can create comment js code in single line or multiline  </label><br>
+1.Single line comment <br>
+// Iam Single Line Comment [ using two forward slas]<br>
+
+var a = 5; //here is var a  <br><br>
+
+/*  iam multiline comment <br>
+var b = 10; <br>
+var s = a +b; <br>
+document.write(s); <br>
+*/<br>
+</code>
+</div>
+<p id="sub-q">3. Store values using assignment operator.<br>
+Create to two variables ‘a’ <br>
+Assign variable a with value 5 <br>
+Assign the value of a to b .</p>
+<div class="ans">
+<code>
+var a ;<br>
+var b;<br>
+a = 5;<br>
+b = a;<br>
+document.write(b);<br>
+Output- 5 ;
+
+</code>
+</div>
+<p id="sub-q">4. Add two numbers using plus operator</p>
+<div class="ans">
+<code>
+// = is assignment operator <br><br>
+
+var a ;<br>
+var b ;<br>
+a = 5;<br>
+b = 6;<br>
+s = a + b ;<br>
+document.write(s);<br>
+<p>Output- is 11 </p>
+
+</code>
+</div>
+<p id="sub-q">5. Subtract One number from another</p>
+<div class="ans">
+<code>
+// - subtract operator <br>
+var a ; <br>
+var b; <br>
+a = 10; <br>
+b = 5; <br>
+s = a - b ; <br>
+document.write(s); <br>
+<p>output is 5 </p> <br>
+</code>
+
+</div>
+<p id="sub-q">6. Multiply two numbers</p>
+<div class="ans">
+<code>
+// * multiply operator <br>
+var a ; <br>
+var b; <br>
+a = 5; <br>
+b = 5; <br>
+s = a * b ; <br>
+document.write(s); <br>
+<p>output is 25 </p> <br>
+</code>
+</div>
+<p id="sub-q">7. Divide one number by other</p>
+<div class="ans">
+<code>
+//    /	Division operator <br>
+var a ; <br>
+var b; <br>
+a = 100; <br>
+b = 10; <br>
+s = a / b ; <br>
+document.write(s); <br>
+<p>output is 10 </p> <br>
+</code>
+</div>
+<p id="sub-q">8. Increment a number using both pre and post increment.</p>
+<div class="ans">
+<code>
+//pre-increment<br>
+var a = 5; <br>
+document.write(++a); // output - 6 <br><br>
+//post-increment<br>
+var a = 5; <br>
+document.write(a++); // output - 5 <br>
+
+</code>
+</div>
+<p id="sub-q">9. What will be the output of the following program.<br>
+var i = 4;<br>
+var j = 21;<br>
+var k = ++i * 7 +2 - j--;<br>
+console.log(k)</p>
+<div class="ans">
+<code>
+var i = 4; <br>
+var j = 21;<br>
+var k = ++i * 7 +2 - j--; <span style="color:black;">//var k = 5 * 7 + 2 - 21</span>  <br>
+document.write(k);<br>
+output is 16 <br>
+</code>
+<script>
+var i = 4;
+var j = 21;
+var k = ++i * 7 +2 - j--;
+document.write(k);
+</script>
+</div>
+<p id="sub-q">10. Write a program to get remainder of 17 divided by 3.</p>
+<div class="ans">
+<code>
+var a = 17;<br>
+var b = 3;<br>
+var s = a % b ;  <br>
+document.write(s + 'is remainder');<br><br>
+<script>
+var a = 17;
+var b = 3;
+var s = a % b;
+document.write(s + 'is remainder ');
+</script>
+</code>
+</div>
+<p id="sub-q">11. Declare a string variable and log the type of of variable.</p>
+<div class="ans">
+<code>
+var a = "java script";<br>
+var b = typeof a;<br>
+document.write(b);<br>
+<script>
+var a = "java script";
+var b = typeof a;
+document.write("output is "+ b);
+</script>
+</code>
+</div>
+<p id="sub-q">12. Print a string “ Alan said, “Peter is learning Javascript” ”(ignore first and last quote) use escape character.</p>
+<div class="ans">
+<code>
+ 
+
+</code>
+<Script>
+
+
+</Script>
+</div>
+
+<p id="sub-q">13. Concat two strings using plus operator</p>
+<div class="ans">
+<code>
+var a = "Iam Learning javascript";<br>
+var b = "in Thruskill";<br>
+var s = a + b ;<br>
+<script>
+var a = "Iam Learning javascript";
+var b = " in Thruskill";
+var s = a + b ;
+document.write("<br> Output- is " + s);
+</script>
+</code>
+</div>
+
+<p id="sub-q">14. Concat two strings using plus equal (+=) operator.</p>
+<div class="ans">
+<code>
+var a = "hello";<br>
+var b = " javascript";<br>
+var s = a += b ;<br>
+document.write(s); //hello javascript<br>
+
+</code>
+<script>
+var a = "hello";
+var b = " javascript";
+var s = a += b ;
+document.write('Output is '+ s );
+</script>
+</div>
+
+<p id="sub-q">15. Append a number variable to string.</p>
+<div class="ans">
+<code>
+var item = ' mobile';<br>
+var brand = " mi";<br>
+var mrp = 10000;<br>
+var detail = " item"+ item + ' brand'+ brand + " price" + " INR"+mrp;<br>
+document.write(detail);<br>
+</code>
+<Script>
+var item = ' mobile';
+var brand = " mi";
+var mrp = 10000;
+var detail = " ITEM "+ item + ' BRAND'+ brand + " PARICE " + " INR"+mrp;
+document.write(detail);
+</Script>
+</div>
+<p id="sub-q">16. Store multiples values in one variable using JS array.</p>
+<div class="ans">
+<code>
+var array = ['MAYUR','SHARMA','BIHAR',7021466542]; //storing multiple value in single variable<br>
+document.write(array); // <br>
+</code>
+<script>
+var array = ['MAYUR','SHARMA','BIHAR',7021466542];
+document.write("<br>"+array); //ptinting array
+</script>
+</div>
+
+<p id="sub-q">17. Verify a variable is an array using isArray() method.</p>
+<div class="ans">
+<code>
+var arr = ['MAYUR','SHARMA','BIHAR'];<br>
+var ver = typeof arr;<br>
+document.write(ver);  //object<br>
+</code>
+<script>
+var arr = ['MAYUR','SHARMA','BIHAR'];
+var ver = typeof arr;
+document.write(ver);
+</script>
+</div>
+
+<p id="sub-q">18. Find the length of an array</p>
+<div class="ans">
+<code>
+var arr = ['MAYUR','SHARMA','BIHAR'];<br>
+var b = arr.length;<br>
+document.write(b); // 3<br>
+</code>
+<script>
+var arr = ['MAYUR','SHARMA','BIHAR'];
+var b = arr.length;
+document.write('length is ' + b);
+</script>
+</div>
+
+<p id="sub-q">19. Create an array with five elements and access the 3rd element using indexes.</p>
+<div class="ans">
+<code>
+var arr = [45,85,66,44,99];<br>
+var b = arr[2];<br>
+document.write("3rd element is " + b); //66<br>
+</code>
+<script>
+var arr = [45,85,66,44,99];
+var b = arr[2];
+document.write("3rd element is " + b);
+</script>
+</div>
+
+<p id="sub-q">20. Create an array with 10 elements and then update the 5th and 6th posiƟon with new values using index.</p>
+<div class="ans">
+<code>
+var arr = [11,12,13,14,151,61,71,81,98,45];<br>
+arr[4] = "5th";<br>
+arr[5] = '6th';<br>
+document.write(arr); // 11,12,13,14,5th,6th,71,81,98,45 <br>
+</code>
+<script>
+var arr = [11,12,13,14,151,61,71,81,98,45];
+arr[4] = "5th";
+arr[5] = '6th';
+document.write('<br>' + arr);
+</script>
+</div>
+
+<p id="sub-q">21. Add a element to an existing array using push() method.</p>
+<div class="ans">
+<code>
+var arr = [11,12,45];<br>
+arr.push(55); // added new element<br>
+document.write(arr);  //11,15,45,55<br>
+</code>
+<Script>
+var arr = [11,12,45];
+arr.push(55); // added new element
+document.write(arr);
+</Script>
+</div>
+</div>
+</body>
+
+</html>
